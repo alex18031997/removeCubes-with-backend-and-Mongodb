@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/custom.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <span>Регистрация нового пользователя</span>
+        <hr>
+        <div class="col-md-offset-3 col-md-6">
+            <form id="form" class="form-horizontal">
+                <span class="heading">Регистрация</span>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputLogin" name="login" placeholder="Login" value="">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputName" name="login" placeholder="Name" value="">
+                </div>
+                <div class="form-group help">
+                    <input type="password" class="form-control" id="inputPassword" name="pass" placeholder="Password"
+                           value="">
+                </div>
+                <div class="form-group help">
+                    <input type="password" class="form-control" id="PassСon" name=PassСon"
+                           placeholder="Password confirmation" value="">
+                </div>
+                <span class="hide" id="error"></span>
+                <div class="form-group">
+                </div>
+                <div class="btns">
+                </div>
+            </form>
+            <button type="submit" class="btn btn-default">Зарегистрироваться</button>
+        </div>
+
+    </div><!-- /.row -->
+</div><!-- /.container -->
+
+
+<div id="resSec" class="container hide">
+    <div class="row">
+        <h1>Вы успешно зарегистрировались!</h1>
+        <button type="submit" class="btn"><a href="/">Начать игру!</a></button>
+    </div>
+
+</div>
+
+
+<script type="module" src="js/reg.js"></script>
+</body>
+</html>

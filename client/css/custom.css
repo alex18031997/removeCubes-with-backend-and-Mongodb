@@ -1,0 +1,206 @@
+
+.random {
+    background: white;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.hide {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.btn {
+    background: darkblue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    user-select: none;
+    margin: 5px;
+    justify-content: center;
+}
+
+.btn:hover {
+    background: blue;
+    transition: all 2ms;
+}
+
+.btn:active {
+    background: lightseagreen;
+    box-shadow: 0px 1px 5px #051bbb;
+}
+
+.points {
+    border: 1px solid darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.time {
+    border: 1px solid darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.table-result {
+    justify-content: center;
+    border: 1px solid black;
+    height: 330px;
+    width: calc(30% - 45px);
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    overflow: auto;
+}
+
+.wrap {
+    display: flex;
+}
+
+
+.modal {
+    text-align: center;
+    align-items: center;
+    display: none;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.95);
+    justify-content: center;
+}
+
+.modal-contend {
+    display: flex;
+    padding: 15px;
+    margin: 0 auto;
+    background: darkgray;
+    border-radius: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.result {
+    width: 100%;
+}
+
+.getName {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.checkLength {
+    color: red;
+    width: 100%;
+}
+
+.clearBtn {
+    display: none;
+}
+
+.container {
+    padding: 50px;
+}
+
+.row {
+    width: 70%;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.admin_cont {
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 25px;
+}
+
+.head_admin {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.admin_wrap {
+    display: flex;
+}
+
+.wrap_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#error {
+    color: red;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns {
+    display: flex;
+}
+
+.usersTable {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.table-wrap {
+    display: flex;
+    padding: 10px;
+}
+
+.tableStyle {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.page-link {
+    color: black;
+    link: black;
+}
+
+.tr {
+    flex-wrap: wrap;
+}
+
+.th {
+    width: 100%;
+}
+
+.table thead th {
+    cursor: pointer;
+}
+
+.admin {
+    cursor: pointer;
+}
+
+.gamer {
+    cursor: pointer;
+}
